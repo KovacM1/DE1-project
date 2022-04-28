@@ -84,11 +84,8 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 #### Code for module
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/driver_7seg_4digits.vhd
 
-Write your text here.
-![ALL_1](https://user-images.githubusercontent.com/99388246/165690482-fb4a7660-ae4b-4873-b1ea-3788d28b862e.JPG)
-![ALL_2](https://user-images.githubusercontent.com/99388246/165690508-4f58b8ce-2970-40b8-ac10-aff1f8a2605a.JPG)
-![ALL_3](https://user-images.githubusercontent.com/99388246/165690524-8c277d65-4948-4dea-9443-afff70e9b6df.JPG)
-![ALL_4](https://user-images.githubusercontent.com/99388246/165690564-5b40531b-76fd-4ddd-b681-e5fec9a3feef.JPG)
+### Simulations
+- text ohľadom simulácií.
 
 
 <a name="top"></a>
@@ -100,7 +97,6 @@ Top module contains all above modules. It connects them together with hardware c
 ### Top module code 
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sim_1/imports/new/tb_TOP_GENERATOR.vhd
 
-![Schem](https://user-images.githubusercontent.com/99388246/165649863-4699d57b-5b60-4eeb-8aff-df5456ab7aca.JPG)
 |:--:| 
 |*Top modul schema*|
 
