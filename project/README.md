@@ -63,7 +63,7 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 
 ### Frequency measure module
 
--text about this module
+- text about this module
 
 #### Code for module
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/new/FREQ_MEASURE.vhd
@@ -71,7 +71,7 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 
 ### PWM module
 
--text about this module
+- text about this module
 
 #### Code for module
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/PWM.vhd
@@ -79,7 +79,7 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 
 ### Driver-7seg module
 
--text about this module
+- text about this module
 
 #### Code for module
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/driver_7seg_4digits.vhd
