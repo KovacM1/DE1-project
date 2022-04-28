@@ -114,4 +114,4 @@ Write your text here
 
 ## References
 
-1. Nexys reference manual https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
+1. Nexys A7 Reference Manual https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
