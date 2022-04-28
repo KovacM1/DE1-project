@@ -62,7 +62,6 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 <img width="236" alt="Snímka obrazovky 2022-04-28 o 9 52 28" src="https://user-images.githubusercontent.com/99388246/165704816-4b6ad5c2-ce04-47f4-8c4f-db506c27e9cc.png">
 
 #### Code for moodule 
-
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/DDS_GEN.vhd
 
 
@@ -73,6 +72,27 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 <img width="230" alt="Snímka obrazovky 2022-04-28 o 9 59 07" src="https://user-images.githubusercontent.com/99388246/165706578-0d039e4e-439d-4dea-8bdc-bbd587b7ecab.png">
 
 #### Code for module
+https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/new/FREQ_MEASURE.vhd
+
+
+### PWM module
+
+-text about this module
+
+<img width="225" alt="Snímka obrazovky 2022-04-28 o 10 16 06" src="https://user-images.githubusercontent.com/99388246/165708975-b2f8102e-449e-4574-9d96-087e1ea88424.png">
+
+#### Code for module
+https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/PWM.vhd
+
+
+### Driver-7seg module
+
+-text about this module
+
+<img width="230" alt="Snímka obrazovky 2022-04-28 o 9 59 07" src="https://user-images.githubusercontent.com/99388246/165706578-0d039e4e-439d-4dea-8bdc-bbd587b7ecab.png">
+
+#### Code for module
+https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/driver_7seg_4digits.vhd
 
 Write your text here.
 ![ALL_1](https://user-images.githubusercontent.com/99388246/165690482-fb4a7660-ae4b-4873-b1ea-3788d28b862e.JPG)
@@ -88,8 +108,6 @@ Write your text here.
 Top module contains all above modules. It connects them together with hardware components.
 
 ### Top module code 
-
-### Top module Testbench
 
 
 
