@@ -2,10 +2,10 @@
 
 ### Team members
 
-* Dominik Caban (responsible for analog part and generating signal (DDS_GEN, PWM, FREQ_MEAS))
-* Ivo Dovičák (responsible for generating signals (DDS_GEN, PWM))
-* Martin Kováč (responsible for User Interface (COUNTER, DISPLAY) and final documentation (GIT))
-* Lukáš Kudrna (responsible for User Interface (COUNTER, DISPLAY) and presentation)
+* Dominik Caban (responsible for analog part and generating signal (SIN, PWM, TEST BENCH)
+* Ivo Dovičák (responsible for generating signals (SIN, PWM, BLOCK SCHEMATIC))
+* Martin Kováč (responsible for Presentation of the project (VIDEO) and display interface)
+* Lukáš Kudrna (responsible for Final documentation (GIT) and user interface)
 
 ### Table of contents
 
@@ -28,6 +28,8 @@ The objective of the project within the subject Digital electronics was to creat
 ### Nexys A7-50T
 The Nexys A7 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx®. With its large, high-capacity FPGA, generous external memories, and collection of USB, Ethernet, and other ports, the Nexys A7 can host designs ranging from introductory combinational circuits to powerful embedded processors. Several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices allow the Nexys A7 to be used for a wide range of designs without needing any other components.
 
+- Deska Nexys A7 je platforma na bázi Artix-7™ Field Programmable Gate Array (FPGA) z Xilinx®. Obsahuje vysokokapacitní FPGA, externí paměti, USB, Ethernet, a další porty, Nexys A7 může host designů ranging z introduktorů kombinačních obvodů do powerful embedded processors. Severální budovy v peripherals, zahrnující accelerometr, teplotní senzor, MEMs digitální mikrofon, reproduktory amplifier, a severní I/O zařízení na nexys A7 bude použita pro širokou škálu designů s nepotřebnou any ostatní komponenty.
+
 ![nexys-a7-obl-600](https://user-images.githubusercontent.com/99388246/165694448-dfccf257-62a9-4c5e-bb68-ceab544a98f1.png)
 |:--:| 
 |*Nexys A7-50T*|
@@ -45,7 +47,7 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 
 
 
-### Counter UP and DOWN module
+### Sin_gen module
 
 - text about this module
 
@@ -53,23 +55,14 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/COUNTER_UpDw_14b.vhd
 
 
-### DDS Generator
-
-- text about this module
-
-#### Code for moodule 
-https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/DDS_GEN.vhd
-
-
-### Frequency measure module
+### SW handler module
 
 - text about this module
 
 #### Code for module
-https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/new/FREQ_MEASURE.vhd
 
 
-### PWM module
+### PWM_gen module
 
 - text about this module
 
