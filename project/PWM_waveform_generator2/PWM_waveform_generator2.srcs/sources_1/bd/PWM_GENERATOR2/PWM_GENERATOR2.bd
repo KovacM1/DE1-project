@@ -1,0 +1,323 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x474C9391FF7B8051",
+      "device": "xc7a50ticsg324-1L",
+      "gen_directory": "../../../../PWM_waveform_generator2.gen/sources_1/bd/PWM_GENERATOR2",
+      "name": "PWM_GENERATOR2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "COUNTER_UpDw_14b_0": "",
+      "DDS_GEN_0": "",
+      "FREQ_MEASURE_0": "",
+      "PWM_0": "",
+      "driver_7seg_4digits_0": "",
+      "xlconstant_0": ""
+    },
+    "ports": {
+      "OUT_SIG": {
+        "direction": "O"
+      },
+      "UP": {
+        "direction": "I"
+      },
+      "DOWN": {
+        "direction": "I"
+      },
+      "RST_IN": {
+        "direction": "I"
+      },
+      "CLK_IN": {
+        "direction": "I"
+      },
+      "CA_DEG_DISP": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "AN_DISP": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "JA_1": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "AUD_SD": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      }
+    },
+    "components": {
+      "COUNTER_UpDw_14b_0": {
+        "vlnv": "xilinx.com:module_ref:COUNTER_UpDw_14b:1.0",
+        "xci_name": "PWM_GENERATOR2_COUNTER_UpDw_14b_0_0",
+        "xci_path": "ip\\PWM_GENERATOR2_COUNTER_UpDw_14b_0_0\\PWM_GENERATOR2_COUNTER_UpDw_14b_0_0.xci",
+        "inst_hier_path": "COUNTER_UpDw_14b_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "COUNTER_UpDw_14b",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "UP": {
+            "direction": "I"
+          },
+          "DOWN": {
+            "direction": "I"
+          },
+          "RST": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "OUTPUT_CNT": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "RST",
+                "value_src": "constant"
+              }
+            }
+          }
+        }
+      },
+      "DDS_GEN_0": {
+        "vlnv": "xilinx.com:module_ref:DDS_GEN:1.0",
+        "xci_name": "PWM_GENERATOR2_DDS_GEN_0_0",
+        "xci_path": "ip\\PWM_GENERATOR2_DDS_GEN_0_0\\PWM_GENERATOR2_DDS_GEN_0_0.xci",
+        "inst_hier_path": "DDS_GEN_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "DDS_GEN",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "RST",
+                "value_src": "constant"
+              }
+            }
+          },
+          "FREQ": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "OUTPUT_SIN": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "RST": {
+            "type": "rst",
+            "direction": "I"
+          }
+        }
+      },
+      "FREQ_MEASURE_0": {
+        "vlnv": "xilinx.com:module_ref:FREQ_MEASURE:1.0",
+        "xci_name": "PWM_GENERATOR2_FREQ_MEASURE_0_0",
+        "xci_path": "ip\\PWM_GENERATOR2_FREQ_MEASURE_0_0\\PWM_GENERATOR2_FREQ_MEASURE_0_0.xci",
+        "inst_hier_path": "FREQ_MEASURE_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FREQ_MEASURE",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "DATA_IN": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "OUT_VALUE": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "PWM_0": {
+        "vlnv": "xilinx.com:module_ref:PWM:1.0",
+        "xci_name": "PWM_GENERATOR2_PWM_0_0",
+        "xci_path": "ip\\PWM_GENERATOR2_PWM_0_0\\PWM_GENERATOR2_PWM_0_0.xci",
+        "inst_hier_path": "PWM_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "PWM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "DATA_IN": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "SIGNAL_OUT": {
+            "direction": "O"
+          },
+          "RST": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "RST",
+                "value_src": "constant"
+              }
+            }
+          }
+        }
+      },
+      "driver_7seg_4digits_0": {
+        "vlnv": "xilinx.com:module_ref:driver_7seg_4digits:1.0",
+        "xci_name": "PWM_GENERATOR2_driver_7seg_4digits_0_0",
+        "xci_path": "ip\\PWM_GENERATOR2_driver_7seg_4digits_0_0\\PWM_GENERATOR2_driver_7seg_4digits_0_0.xci",
+        "inst_hier_path": "driver_7seg_4digits_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "driver_7seg_4digits",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "DATA_In": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "seg_o": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "dig_o": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "PWM_GENERATOR2_xlconstant_0_0",
+        "xci_path": "ip\\PWM_GENERATOR2_xlconstant_0_0\\PWM_GENERATOR2_xlconstant_0_0.xci",
+        "inst_hier_path": "xlconstant_0"
+      }
+    },
+    "nets": {
+      "COUNTER_UpDw_14b_0_OUTPUT": {
+        "ports": [
+          "COUNTER_UpDw_14b_0/OUTPUT_CNT",
+          "DDS_GEN_0/FREQ"
+        ]
+      },
+      "DDS_GEN_0_OUTPUT": {
+        "ports": [
+          "DDS_GEN_0/OUTPUT_SIN",
+          "FREQ_MEASURE_0/DATA_IN",
+          "PWM_0/DATA_IN"
+        ]
+      },
+      "DOWN_1": {
+        "ports": [
+          "DOWN",
+          "COUNTER_UpDw_14b_0/DOWN"
+        ]
+      },
+      "FREQ_MEASURE_0_OUT_VALUE": {
+        "ports": [
+          "FREQ_MEASURE_0/OUT_VALUE",
+          "driver_7seg_4digits_0/DATA_In"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "RST_IN",
+          "COUNTER_UpDw_14b_0/RST",
+          "DDS_GEN_0/RST",
+          "PWM_0/RST",
+          "driver_7seg_4digits_0/reset"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "CLK_IN",
+          "COUNTER_UpDw_14b_0/CLK",
+          "DDS_GEN_0/CLK",
+          "FREQ_MEASURE_0/CLK",
+          "PWM_0/CLK",
+          "driver_7seg_4digits_0/clk"
+        ]
+      },
+      "PWM_0_SIGNAL_OUT": {
+        "ports": [
+          "PWM_0/SIGNAL_OUT",
+          "OUT_SIG"
+        ]
+      },
+      "UP_1": {
+        "ports": [
+          "UP",
+          "COUNTER_UpDw_14b_0/UP"
+        ]
+      },
+      "driver_7seg_4digits_0_dig_o": {
+        "ports": [
+          "driver_7seg_4digits_0/dig_o",
+          "AN_DISP"
+        ]
+      },
+      "driver_7seg_4digits_0_seg_o": {
+        "ports": [
+          "driver_7seg_4digits_0/seg_o",
+          "CA_DEG_DISP"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "JA_1",
+          "AUD_SD"
+        ]
+      }
+    }
+  }
+}
