@@ -89,7 +89,7 @@ https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2
 
 -text about this module
 
-<img width="230" alt="Snímka obrazovky 2022-04-28 o 9 59 07" src="https://user-images.githubusercontent.com/99388246/165706578-0d039e4e-439d-4dea-8bdc-bbd587b7ecab.png">
+<img width="206" alt="Snímka obrazovky 2022-04-28 o 10 16 02" src="https://user-images.githubusercontent.com/99388246/165710219-9baccb0e-3599-4418-b36c-a4a134d919fc.png">
 
 #### Code for module
 https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/driver_7seg_4digits.vhd
