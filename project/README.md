@@ -98,8 +98,7 @@ Write your text here.
 Top module contains all above modules. It connects them together with hardware components.
 
 ### Top module code 
-
-
+https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sim_1/imports/new/tb_TOP_GENERATOR.vhd
 
 ![Schem](https://user-images.githubusercontent.com/99388246/165649863-4699d57b-5b60-4eeb-8aff-df5456ab7aca.JPG)
 |:--:| 
