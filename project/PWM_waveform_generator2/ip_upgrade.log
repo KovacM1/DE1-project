@@ -1,0 +1,100 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Wed Apr 27 23:15:50 2022
+| Host         : DESKTOP-S6T5VL6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a50ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PWM_GENERATOR2_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of PWM_GENERATOR2_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 7)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Wed Apr 27 23:15:50 2022
+| Host         : DESKTOP-S6T5VL6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a50ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PWM_GENERATOR2_driver_7seg_4digits_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of PWM_GENERATOR2_driver_7seg_4digits_0_0 (xilinx.com:module_ref:driver_7seg_4digits:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Wed Apr 27 23:15:50 2022
+| Host         : DESKTOP-S6T5VL6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a50ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PWM_GENERATOR2_PWM_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of PWM_GENERATOR2_PWM_0_0 (xilinx.com:module_ref:PWM:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Wed Apr 27 23:15:50 2022
+| Host         : DESKTOP-S6T5VL6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a50ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PWM_GENERATOR2_FREQ_MEASURE_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of PWM_GENERATOR2_FREQ_MEASURE_0_0 (xilinx.com:module_ref:FREQ_MEASURE:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Wed Apr 27 23:15:50 2022
+| Host         : DESKTOP-S6T5VL6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a50ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PWM_GENERATOR2_DDS_GEN_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of PWM_GENERATOR2_DDS_GEN_0_0 (xilinx.com:module_ref:DDS_GEN:1.0 (Rev. 1)) to Vivado generation flows.
+
