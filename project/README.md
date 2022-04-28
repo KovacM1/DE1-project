@@ -43,6 +43,10 @@ The Nexys A7 board is a complete, ready-to-use digital circuit development platf
 
 ## VHDL modules description and simulations
 
+### Counter UP and DOWN module
+#### Code for module
+https://github.com/KovacM1/DE1-project/blob/main/project/PWM_waveform_generator2/PWM_waveform_generator2.srcs/sources_1/imports/new/COUNTER_UpDw_14b.vhd
+
 Write your text here.
 ![ALL_1](https://user-images.githubusercontent.com/99388246/165690482-fb4a7660-ae4b-4873-b1ea-3788d28b862e.JPG)
 ![ALL_2](https://user-images.githubusercontent.com/99388246/165690508-4f58b8ce-2970-40b8-ac10-aff1f8a2605a.JPG)
